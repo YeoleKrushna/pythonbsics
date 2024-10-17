@@ -48,7 +48,7 @@ while True:
                 
                 print(f"Name: {name}, Age: {details['age']}, Marks: {marks}, Grade: {grade}")
 
-    elif choice == '4':  # Exit
+    elif choice == '4':
         print("Exiting....")
         break
 
