@@ -18,7 +18,7 @@ while True:
         age = int(input("Enter student's age: "))
         marks = float(input("Enter student's marks: "))
         students[name] = {'age': age, 'marks': marks}
-        print(f"Student {name} added successfully.")
+
 
     elif choice == '2':
         name = input("Enter the name of the student to update: ")
