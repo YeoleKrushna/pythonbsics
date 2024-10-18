@@ -25,7 +25,6 @@ while True:
         if name in students:
             age = int(input("Enter new age: "))
             marks = float(input("Enter new marks: "))
-            students[name] = {'age': age, 'marks': marks}
         else:
             print("Student not found.")
 
